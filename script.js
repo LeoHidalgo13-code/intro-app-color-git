@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const hexCode = document.getElementById('hexCode');
     const hexColorBox = document.getElementById('hexColorBox');
 
+    
     function updateColor() {
         const r = parseInt(redRange.value);
         const g = parseInt(greenRange.value);
